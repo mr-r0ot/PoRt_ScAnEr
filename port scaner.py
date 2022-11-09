@@ -24,7 +24,7 @@ def clear_screen():
 
 
 
-
+clear_screen()
 def scan_port(ip, ranw, until):
     rang = int(ranw)
     rang_untile = int(until)
