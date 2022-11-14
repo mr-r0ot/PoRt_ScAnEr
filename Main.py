@@ -52,7 +52,7 @@ def scan_port(ip, ranw, until):
         print("\t\t O P E N   P O R T S")
         for ss in list_open:
             print("\n\t port {}: open\n\n".format(ss))
-    print("\n\n\n\n\n\t  my github  :  Evil-with-angel-morality")
+    print("\n\n\n\n\n\t  my github  :  mr-r0ot")
     input("\n\t  Enter for close ")
     sys.exit()
 
