@@ -33,7 +33,7 @@ def scan_port(ip, ranw, until):
     list_open = []
     for port in range(rang , rang_untile):
         sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        sock.settimeout(1)
+        sock.settimeout(0.8)
         
         try:
             save = sock.connect_ex((ip, port))
