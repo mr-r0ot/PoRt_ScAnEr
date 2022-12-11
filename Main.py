@@ -1,19 +1,4 @@
-try:
-    import os, time, socket, sys
-except:
-    if os.name == 'nt':
-        os.system('pip install socket')
-        print("\t\t Instaling...")
-        time.sleep(1.5)
-        os.system('cls')
-    else:
-        os.system('pip3 install socket')
-        print("\t\t Instaling...")
-        time.sleep(1.5)
-        os.system('clear')
-    
-    import os, time, socket, sys
-# ===================================================================================================
+import os, time, socket, sys
 
 
 def clear_screen():
